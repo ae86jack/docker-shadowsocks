@@ -10,7 +10,7 @@ Get the docker image by running the following commands:
 
 This image uses ENTRYPOINT to run the containers as an executable.
  
-    sudo docker run -d --restart=always -p 8388:8388 shadowsocks -p 8388 -k yourpassword -m chacha20  --workers 60
+    sudo docker run -d --restart=always -p 8388:8388 ae86/shadowsocks -p 8388 -k yourpassword -m chacha20  --workers 60
 
 中文简介
 -----------
